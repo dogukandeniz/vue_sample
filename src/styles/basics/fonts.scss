@@ -1,0 +1,59 @@
+@import "../setup/color.scss";
+
+.text-center {
+    text-align: center;
+}
+.bold {
+    font-weight: 700 !important;
+}
+h2 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: $color-black-1;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: $color-black-1;
+
+}
+
+h4 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $color-black-1;
+}
+
+h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: $color-grey-1;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $color-black-1;
+}
+span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $color-black-1;
+}

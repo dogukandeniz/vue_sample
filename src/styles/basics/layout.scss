@@ -1,0 +1,51 @@
+@use "sass:map";
+@import "../setup/mixin.scss";
+
+body {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+    
+    &.noscroll {
+        position: fixed;
+        width: 100%;
+        overflow-y: scroll;
+    }
+}
+
+ .c-wrapper{
+    margin: 0 auto;
+}
+
+@include media-breakpoint-up("xs"){
+    .c-wrapper { 
+        width: $xs;
+     } 
+}
+@include media-breakpoint-up("sm"){
+    .c-wrapper { 
+        width: $sm;
+     } 
+}
+@include media-breakpoint-up("md"){
+    .c-wrapper { 
+        width: $md;
+     } 
+}
+@include media-breakpoint-up("lg"){
+    .c-wrapper { 
+        width: $lg;
+     } 
+}
+@include media-breakpoint-up("xl"){
+    .c-wrapper { 
+        width: $xl;
+     } 
+}
+@include media-breakpoint-up("xxl") {
+    .c-wrapper { 
+        width: $xxl;
+     } 
+    
+}
